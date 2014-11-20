@@ -12,17 +12,18 @@
 
 - (NSString *) favoriteCheeseStringWithCheese:(NSString *)cheeseName {
     /* WORK HERE */
-    return nil;
+    return cheeseName;
 }
 
 - (NSString *) cheeseNameWithoutCheeseSuffix:(NSString *)cheeseName {
     /* WORK HERE */
-    return nil;
+    return cheeseNameOnly;
 }
 
 - (NSString *) numberOfCheesesStringWithCheeseCount:(NSUInteger)cheeseCount {
     if (cheeseCount == 1) {
         /* WORK HERE, ASSUMING THERE IS 1 CHEESE */
+        return numberOfCheesesString;
     } else {
         /* WORK HERE, ASSUMING THERE ARE 2+ CHEESES */
     }
@@ -31,7 +32,7 @@
      (You will learn more about if/else statements in the next checkpoint.)
      */
     
-    return nil;
+    return numberOfCheesesStringWithCheeseCount;
 }
 
 @end
