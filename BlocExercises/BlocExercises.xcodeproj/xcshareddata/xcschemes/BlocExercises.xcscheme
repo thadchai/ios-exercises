@@ -21,11 +21,6 @@
                BlueprintName = "BlocExercises"
                ReferencedContainer = "container:BlocExercises.xcodeproj">
             </BuildableReference>
-            <SkippedTests>
-               <Test
-                  Identifier = "EqualityDeterminerTests/testThatTwoStringsAreEqual">
-               </Test>
-            </SkippedTests>
          </TestableReference>
       </Testables>
    </TestAction>
