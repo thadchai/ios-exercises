@@ -13,9 +13,10 @@
 - (NSArray *) arrayOfStarTrekCharactersFromString:(NSString *)characterString {
 
     NSArray *returningArray = [characterString componentsSeparatedByString:@";"];
-    [returningArray enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
-        [returningArray arrayByAddingObject:obj];
-    }];
+    
+//    [returningArray enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+//        [returningArray arrayByAddingObject:obj];
+//    }];
     
     return returningArray;
 }
