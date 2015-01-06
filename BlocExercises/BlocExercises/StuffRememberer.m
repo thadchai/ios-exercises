@@ -34,7 +34,7 @@
 
 - (CGFloat) floatYouShouldRemember {
 
-    return (self.rememberedFloat);
+    return self.rememberedFloat;
 }
 
 @end
